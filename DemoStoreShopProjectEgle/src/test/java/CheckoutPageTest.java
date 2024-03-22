@@ -121,7 +121,7 @@ public class CheckoutPageTest extends BaseTest {
         Thread.sleep(3000);
         checkoutPage.clickProceedToPayment();
         Thread.sleep(3000);
-        Assertions.assertEquals("Secure checkout", checkoutPage.getSecureCheckoutText(), "Į Secure checkout puslapį nepatekote");
+        Assertions.assertEquals("Secure checkout", checkoutPage.getSecureCheckoutText(), "Į Secure checkout puslapį nepatekote"); //Turi buti Payment ar kazkas panasaus
     }
 
     @Test
@@ -154,7 +154,7 @@ public class CheckoutPageTest extends BaseTest {
         Thread.sleep(3000);
         checkoutPage.clickProceedToPayment();
         Thread.sleep(3000);
-        Assertions.assertEquals("Secure checkout", checkoutPage.getSecureCheckoutText(), "Į Secure checkout puslapį nepatekote");
+        Assertions.assertEquals("Secure checkout", checkoutPage.getSecureCheckoutText(), "Į Secure checkout puslapį nepatekote"); //Turi buti Payment ar kazkas panasaus
     }
 
     @Test
@@ -187,7 +187,7 @@ public class CheckoutPageTest extends BaseTest {
         checkoutPage.clickDeliveryExpress();
         checkoutPage.clickProceedToPayment();
         Thread.sleep(3000);
-        Assertions.assertEquals("Secure checkout", checkoutPage.getSecureCheckoutText(), "Į Secure checkout puslapį nepatekote");
+        Assertions.assertEquals("Secure checkout", checkoutPage.getSecureCheckoutText(), "Į Secure checkout puslapį nepatekote"); //Turi buti Payment ar kazkas panasaus
     }
 
     @Test
